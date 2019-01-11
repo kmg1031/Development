@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+	/* header */
+#header{
+    width: 100%;
+    height: 50px;
+}
+#header .gnb{
+    height: 50px;
+     overflow: hidden;
+}
+#header .gnb ul{
+    float: right;
+    margin: 20px 20px 0 0;
+}
+#header .gnb ul li{
+	width: 70px;
+    float: left;
+    margin-left: 10px;
+}
+#header .gnb ul li a:hover{
+    text-decoration: underline;
+}

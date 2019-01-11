@@ -1,0 +1,71 @@
+@charset "UTF-8";
+#box{
+	width:100%;
+	height: calc(100vh - 50px);
+}
+
+#box>.canvasFrame{
+	width:fit-content;
+	margin: 0 auto;
+
+}
+
+#box>.canvasFrame #cnvs{
+	height:400px;
+	margin:0 auto;
+}
+#screen{
+	width:100%;
+	height:calc(100vh - 50px);
+	background:#ffffff00;
+	position: absolute;
+	top:50px;
+	left:0;
+}
+#screen button.btn{
+	width:6%;
+	height:30px;
+	display:none;
+	position : absolute;
+	left:47%;
+	top:150px;
+}
+
+#bord{
+	width:100%;
+	height: 100vh;
+	position:fixed;
+	top:50px;
+	left:0;
+	background: rgba(55,55,55,0.3);
+	display: none;	
+}
+#bord>#content{
+	width:500px;
+	height:600px;
+	position:fixed;
+	top:200px;
+	left:calc(50% - 250px);
+	display: none;
+	background: #fff;
+	padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

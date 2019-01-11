@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.login{
+	width:500px;
+	height: 600px;
+	margin:0 auto;
+	
+}
+
+.login ul li{
+	width:70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	margin-top:20px; 
+	 
+}
+.login ul li.title{
+	height: 40px;
+	font-weight: bolder;
+	font-size: 36px;
+	text-align: center;
+	margin:10px auto;
+	padding:20px 0;
+}
+.login ul li:nth-last-child(1){
+	border: 0;
+}
+.login ul li input{
+	width:100%;
+	height: 35px;
+	text-indent: 5px;
+	border: 0;
+}

@@ -1,0 +1,51 @@
+@charset "UTF-8";
+.join{
+	width:500px;
+	height: 600px;
+	margin:0 auto;
+	
+}
+
+.join ul li{
+	width:70%;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	margin-top:20px; 
+	 
+}
+.join ul li.title{
+	height: 40px;
+	font-weight: bolder;
+	font-size: 36px;
+	text-align: center;
+	margin:10px auto;
+	padding:20px 0;
+}
+.join ul li#id{
+		
+}
+
+.join ul li#pw{
+	display: none;
+}
+.join ul li:nth-last-child(1){
+	border: 0;
+}
+.join ul li input{
+	width:100%;
+	height: 35px;
+	text-indent: 5px;
+	border: 0;
+}
+.join ul li#id input:nth-child(1){
+	width:73%;
+}
+.join ul li#id input:nth-child(2){
+	width:25%;
+}
+
+
+
+.join ul li{
+
+}

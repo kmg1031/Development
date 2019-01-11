@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.listPage{
+	width:500px;
+	height: 600px;
+	margin:0 auto;
+	
+}
+
+
+.listPage .page{
+	width:fit-content;
+	margin:0 auto;
+	
+	
+	
+}
+.listPage .page a:hover {
+	cursor: pointer;
+}
